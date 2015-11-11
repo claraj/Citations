@@ -22,6 +22,7 @@ public class Main {
         int rushHourRides = Integer.parseInt(scanner.nextLine());
         System.out.println("How much is the regular bus fare?");
         double rushHourFare = Double.parseDouble(scanner.nextLine());
+        scanner.close();
 
 
         double regularHourSpend = calculate(regularRides, regularFare);
